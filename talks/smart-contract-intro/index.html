@@ -3,7 +3,9 @@ layout: presentation
 title: Introduction to Smart Contracts
 highlight_language: solidity
 description: A short introduction to smart contracts
-image: talks/2019/smart-contract-intro/Ethereum_logo_2014.png
+image: talks/smart-contract-intro/Ethereum_logo_2014.png
+redirect_from:
+- /talks/2019/smart-contract-intro/
 ---
 
 class: middle, title-slide
@@ -11,8 +13,6 @@ class: middle, title-slide
 # Introduction to Smart Contracts
 
 ## Daniel Perez<br> <span class="very minor">Imperial College London</span>
-
-### October 22th 2019
 
 #### Slides available at: http://bit.ly/smart-contract-intro
 
@@ -775,6 +775,8 @@ cd my-token
 truffle init
 truffle create contract MyToken
 ```
+
+Set .text.minor[`compilers.solc.version`] to .text.minor[`0.8.8`] in .text.minor[`truffle-config.js`]
 
 Create migration file: .text.minor[`migrations/2_my_token.js`]
 
