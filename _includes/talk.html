@@ -1,5 +1,10 @@
 <li class="talk">
-  {{ talk.title }} [<a href="{{ talk.path | prepend: "talks/" | relative_url }}">slides</a>]
+  {% if talk.path %}
+    {% assign url = talk.path | prepend: "talks/" | relative_url %}
+  {% else %}
+    {% assign url = talk.url %}
+  {% endif %}
+  {{ talk.title }} [<a href="{{ url }}">slides</a>]
     {% if talk.paper_authors %}
       <div class="authors">by {{ talk.paper_authors }}</div>
     {% endif %}
