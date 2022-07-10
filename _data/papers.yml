@@ -22,6 +22,8 @@
           text: arXiv
         - href: https://static.perez.sh/research/2022/dissimilar-redundancy/dissimilar-redundancy.pdf
           text: paper
+        - href: https://github.com/danhper/smart-contract-dissimilar-redundancy
+          text: project
       authors:
         - Daniel Perez
         - Lewis Gudgeon
@@ -46,6 +48,8 @@
           text: arXiv
         - href: https://static.perez.sh/research/2019/smart-contract-vulnerabilities/smart-contracts-vulnerabilities.pdf
           text: paper
+        - href: https://github.com/danhper/evm-analyzer
+          text: project
       authors:
         - Daniel Perez
         - Benjamin Livshits
@@ -58,6 +62,8 @@
           text: arXiv
         - href: https://static.perez.sh/research/2020/defi-liquidations/defi-liquidations.pdf
           text: paper
+        - href: https://github.com/backdfund/analyzer
+          text: project
       authors:
         - Daniel Perez
         - Sam M. Werner
@@ -158,6 +164,8 @@
           text: arXiv
         - href: https://static.perez.sh/research/2019/evm-metering/evm-metering.pdf
           text: paper
+        - href: https://github.com/danhper/aleth
+          text: project
       authors:
         - Daniel Perez
         - Benjamin Livshits
