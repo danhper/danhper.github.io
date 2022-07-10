@@ -1,5 +1,21 @@
 - title: Publications
   papers:
+    - title: "SoK: Decentralized Finance (DeFi)"
+      links:
+        - href: https://arxiv.org/abs/2101.08778
+          text: arXiv
+        - href: https://static.perez.sh/research/2021/defi-sok/defi-sok.pdf
+          text: paper
+      authors:
+        - Sam M. Werner
+        - Daniel Perez
+        - Lewis Gudgeon
+        - Ariah Klages-Mundt
+        - Dominik Harz
+        - William J. Knottenbelt
+      note: >
+        to appear at the 4th ACM Conference on Advances in Financial Technologies (<a href="https://aft.acm.org/aft22/index.html">AFT 2022</a>)
+
     - title: "Dissimilar Redundancy in DeFi"
       links:
         - href: https://arxiv.org/abs/2201.12563
@@ -9,6 +25,18 @@
       authors:
         - Daniel Perez
         - Lewis Gudgeon
+      note: >
+        to appear at the 3rd International Conference on Mathematical Research for Blockchain Economy (<a href="https://www.marble-conference.org/marble2022">MARBLE 2022</a>)
+
+    - title: "Data-driven analysis of central bank digital currency (CBDC) projects drivers"
+      links:
+        - href: https://arxiv.org/abs/2102.11807
+          text: arXiv
+        - href: https://static.perez.sh/research/2022/cbdc-drivers/cbdc-drivers.pdf
+          text: paper
+      authors:
+        - Toshiko Matsui
+        - Daniel Perez
       note: >
         to appear at the 3rd International Conference on Mathematical Research for Blockchain Economy (<a href="https://www.marble-conference.org/marble2022">MARBLE 2022</a>)
 
@@ -65,7 +93,7 @@
         - Daniel Perez
         - William J. Knottenbelt
       note: >
-        in proceedings of the 2nd ACM Conference on Advances in Financial Technologies (<a href="https://aft.acm.org/">AFT 2020</a>)
+        in proceedings of the 2nd ACM Conference on Advances in Financial Technologies (<a href="https://aft.acm.org/aft20/index.html">AFT 2020</a>)
 
     - title: "TxChain: Efficient Cryptocurrency Light Clients via Contingent Transaction Aggregation"
       links:
@@ -172,18 +200,5 @@
       note: >
         <strong>Best student paper award</strong> at <a href="https://jssst2018.wordpress.com/">JSSST 2018</a>, Tokyo, Japan
 
-- title: Drafts
-  papers:
-    - title: "SoK: Decentralized Finance (DeFi)"
-      links:
-        - href: https://arxiv.org/abs/2101.08778
-          text: arXiv
-        - href: https://static.perez.sh/research/2021/defi-sok/defi-sok.pdf
-          text: paper
-      authors:
-        - Sam M. Werner
-        - Daniel Perez
-        - Lewis Gudgeon
-        - Ariah Klages-Mundt
-        - Dominik Harz
-        - William J. Knottenbelt
+# - title: Drafts
+#   papers:
