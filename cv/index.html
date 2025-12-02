@@ -1,15 +1,73 @@
 ---
 layout: default
 redirect_from:
-  - /blog/cv/
+- /blog/cv/
 ---
 
 <div class="cv">
-  <a href="{{ "cv.pdf" | relative_url }}">
+  <!-- <a href="{{ "cv.pdf" | relative_url }}">
     <i class="fa fa-file-pdf-o"></i>
-    PDF version</a>
+    PDF version</a> -->
   <article>
     <h2>Work Experience</h2>
+
+    <section>
+      <h3>
+        <span class="title">
+          Co-founder
+        </span>
+        <span class="minor">at</span>
+        <a href="https://arvina.tech/" class="affiliation">Arvina Technologies</a>
+      </h3>
+      <div class="info">
+        <span class="period">Sep 2025 - Present</span>
+        <span class="location">London, United Kingdom</span>
+      </div>
+    </section>
+
+    <section>
+      <h3>
+        <span class="title">
+          Co-founder and Engineering Lead
+        </span>
+        <span class="minor">at</span>
+        <a href="https://tlx.fi/" class="affiliation">Aurora Labs</a>
+      </h3>
+      <div class="info">
+        <span class="period">Feb 2021 - Jul 2025</span>
+        <span class="location">London, United Kingdom</span>
+      </div>
+      <ul class="details">
+        <li>Led the development of <a href="https://tlx.fi/">TLX</a> and <a href="https://mero.finance/">Mero</a></li>
+
+        <li>TLX is a permissionless, non-custodial leveraged token platform built on Optimism.
+          TLX has generated over 1 million USD in annualized fees and has been acquired by Synthetix ~8 months after
+          launch</li>
+
+        <li>Mero is a trustless reactive liquidity protocol where users can earn yield and register actions to
+          dynamically manage their liquidity</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>
+        <span class="title">
+          Co-founder and Engineering Lead
+        </span>
+        <span class="minor">at</span>
+        <a href="https://gyro.finance" class="affiliation">Gyroscope</a>
+      </h3>
+      <div class="info">
+        <span class="period">May 2021 - Sep 2025</span>
+        <span class="location">London, United Kingdom</span>
+      </div>
+      <ul class="details">
+        <li>Led the development of <a href="https://gyro.finance">Gyroscope</a>, an asset-backed stablecoin built on
+          resilient DeFi
+          infrastructure leveraging a diversified reserve, autonomous monetary policy, and innovative AMMs</li>
+        <li>Gyroscope managed over $50 million in assets and generated over $1.5 million in annualized fees</li>
+      </ul>
+    </section>
 
     <section>
       <h3>
@@ -34,7 +92,7 @@ redirect_from:
     <section>
       <h3>
         <span class="title">
-          Founder and CTO
+          Co-founder and CTO
         </span>
         <span class="minor">of</span>
         <a href="http://claudetech.com/" class="affiliation">Claude Tech, Inc.</a>
@@ -80,7 +138,8 @@ redirect_from:
       </div>
       <ul class="details">
         <li>Development of <a href="https://www.usaginote.jp/">Usagi Note</a>
-        web API in Ruby on Rails, first service to exit <a href="https://ring.recruit.co.jp/">Recruit Ventures</a></li>
+          web API in Ruby on Rails, first service to exit <a href="https://ring.recruit.co.jp/">Recruit Ventures</a>
+        </li>
         <li>Development of webservice backend in Java</li>
       </ul>
     </section>
@@ -96,10 +155,12 @@ redirect_from:
         <span class="location">Tokyo, Japan</span>
       </div>
       <ul>
-        <li>Joint research with <a href="http://www.iisec.ac.jp/">Institute of Information Security</a> on Linux security.
-            Kernel patches and modules development</li>
+        <li>Joint research with <a href="http://www.iisec.ac.jp/">Institute of Information Security</a> on Linux
+          security.
+          Kernel patches and modules development</li>
         <li>Image recognition algorithms development for billiard game analysis software with C# and OpenCV</li>
-        <li>Backend and frontend development of <a href="http://catalog.he.u-tokyo.ac.jp/">Tokyo University Online Course Catalogue</a> in PHP and JavaScript</li>
+        <li>Backend and frontend development of <a href="http://catalog.he.u-tokyo.ac.jp/">Tokyo University Online
+            Course Catalogue</a> in PHP and JavaScript</li>
       </ul>
     </section>
 
@@ -114,7 +175,8 @@ redirect_from:
         <span class="location">Tokyo, Japan</span>
       </div>
       <ul>
-        <li>Computer science and programming (mainly Android development) tutoring for junior high school and high school students</li>
+        <li>Computer science and programming (mainly Android development) tutoring for junior high school and high
+          school students</li>
       </ul>
     </section>
 
@@ -181,16 +243,17 @@ redirect_from:
         <span class="location">London, United Kingdom</span>
       </div>
       <p class="content">
-        <dl class="emph inline">
-          <dt>Specialization</dt>
-          <dd>Blockchain systems security</dd>
-          <dt>PhD thesis</dt>
-          <dd>A Layered Approach to Improving Blockchain Systems Security
-            [<a href="{{ "research/phd-thesis/thesis.pdf" | relative_url }}">PDF</a>]
-          </dd>
-        </dl>
-        Worked and contributed to improving the security of various parts of the blockchain stack, from the execution to the application layer.<br>
-        See the <a href="{{ "research" | relative_url }}">research page</a> for a list of published papers.
+      <dl class="emph inline">
+        <dt>Specialization</dt>
+        <dd>Blockchain systems security</dd>
+        <dt>PhD thesis</dt>
+        <dd>A Layered Approach to Improving Blockchain Systems Security
+          [<a href="{{ "research/phd-thesis/thesis.pdf" | relative_url }}">PDF</a>]
+        </dd>
+      </dl>
+      Worked and contributed to improving the security of various parts of the blockchain stack, from the execution to
+      the application layer.<br>
+      See the <a href="{{ "research" | relative_url }}">research page</a> for a list of published papers.
       </p>
     </section>
 
@@ -206,19 +269,20 @@ redirect_from:
       </div>
       <div class="note">two years off to work on my startup</div>
       <p class="content">
-        <dl class="emph inline">
-          <dt>Specialization</dt>
-          <dd>Machine learning application to programming languages</dd>
-          <dt>Master thesis</dt>
-          <dd>A study of machine learning approaches to cross-language code
+      <dl class="emph inline">
+        <dt>Specialization</dt>
+        <dd>Machine learning application to programming languages</dd>
+        <dt>Master thesis</dt>
+        <dd>A study of machine learning approaches to cross-language code
           clone detection
-            [<a href="{{ "research/master-thesis/thesis.pdf" | relative_url }}">PDF</a>] [<a href="{{ "research/2019/cross-language-clones" | relative_url }}">Project</a>]
-          </dd>
-        </dl>
-        Worked on cross-language source code clone detection using
-        semi-supervised learning. Created a new clone detection dataset
-        for this task implemented a model able to detect cross-language clones
-        missed by state-of-the-art tools.
+          [<a href="{{ "research/master-thesis/thesis.pdf" | relative_url }}">PDF</a>] [<a href="{{ "
+            research/2019/cross-language-clones" | relative_url }}">Project</a>]
+        </dd>
+      </dl>
+      Worked on cross-language source code clone detection using
+      semi-supervised learning. Created a new clone detection dataset
+      for this task implemented a model able to detect cross-language clones
+      missed by state-of-the-art tools.
       </p>
     </section>
 
@@ -233,16 +297,17 @@ redirect_from:
         <span class="location">Tokyo, Japan</span>
       </div>
       <p class="content">
-        <dl class="emph inline">
-          <dt>Specialization</dt>
-          <dd>Operating systems and distributed systems</dd>
-          <dt>Bachelor thesis</dt>
-          <dd>X server in web browser
-            [<a href="https://github.com/danhper/bachelor-thesis/releases/download/v1.0/bachelor_thesis_daniel_perez.pdf">PDF</a>]
-            [<a href="https://github.com/danhper/scala-x-server">GitHub</a>]
-          </dd>
-        </dl>
-        Gratuated as Computer Science department representative
+      <dl class="emph inline">
+        <dt>Specialization</dt>
+        <dd>Operating systems and distributed systems</dd>
+        <dt>Bachelor thesis</dt>
+        <dd>X server in web browser
+          [<a
+            href="https://github.com/danhper/bachelor-thesis/releases/download/v1.0/bachelor_thesis_daniel_perez.pdf">PDF</a>]
+          [<a href="https://github.com/danhper/scala-x-server">GitHub</a>]
+        </dd>
+      </dl>
+      Gratuated as Computer Science department representative
       </p>
     </section>
 
@@ -265,7 +330,8 @@ redirect_from:
     <h2>Awards</h2>
 
     <section>
-      <h3><a href="https://www.paypal.com/stories/us/team-talk%E2%80%99n%E2%80%99pick-wins-battlehack-tokyo">Paypal Battlehack 2015</a> Japan winner and world finalist</h3>
+      <h3><a href="https://www.paypal.com/stories/us/team-talk%E2%80%99n%E2%80%99pick-wins-battlehack-tokyo">Paypal
+          Battlehack 2015</a> Japan winner and world finalist</h3>
       <div class="info">
         <span class="period">Jun 2015</span>
         <span class="location">Tokyo, Japan</span>
@@ -291,7 +357,8 @@ redirect_from:
     </section>
 
     <section>
-      <h3><a href="http://www.tbs.co.jp/tv_hack_day/">TBS TV Hack Day</a> perfection award, PUX and Gracenote awards</h3>
+      <h3><a href="http://www.tbs.co.jp/tv_hack_day/">TBS TV Hack Day</a> perfection award, PUX and Gracenote awards
+      </h3>
       <div class="info">
         <span class="period">Mar 2014</span>
         <span class="location">Tokyo, Japan</span>
@@ -310,7 +377,8 @@ redirect_from:
         <span class="location">Tokyo, Japan</span>
       </div>
       <div class="content">
-        Developed <a href="https://www.youtube.com/watch?v=LLrUGa-bsus&feature=youtu.be">SmartWalk</a>, an application which helps people walking
+        Developed <a href="https://www.youtube.com/watch?v=LLrUGa-bsus&feature=youtu.be">SmartWalk</a>, an application
+        which helps people walking
         safely while looking at their phone.
         Worked on the motion detection algorithm and the real time notification
         system.
@@ -322,9 +390,29 @@ redirect_from:
     <h2>Projects</h2>
 
     <section>
+      <h3><a href="https://corkclub.app">Cork Club</a></h3>
+      <div class="info">
+        <span class="period period-only">Jun 2025 - Present</span>
+      </div>
+      <div class="content">
+        Cork Club is a personal wine journal, designed to help remember, rate, and rediscover every bottle.
+      </div>
+    </section>
+
+    <section>
+      <h3><a href="https://eclair.so">Eclair</a></h3>
+      <div class="info">
+        <span class="period period-only">Jun 2024 - Present</span>
+      </div>
+      <div class="content">
+        Eclair is a Solidity interpreter designed to provide a fast and intuitive REPL to interact with EVM smart contracts using Solidity.
+      </div>
+    </section>
+
+    <section>
       <h3><a href="https://github.com/danhper/bigcode-tools">BigCode tools</a></h3>
       <div class="info">
-        <span class="period period-only">Mar 2017 - Present</span>
+        <span class="period period-only">Mar 2017 - May 2018</span>
       </div>
       <div class="content">
         BigCode tools is a set of tools to work with source code
@@ -337,7 +425,7 @@ redirect_from:
     <section>
       <h3><a href="https://github.com/danhper/atomic-chrome">Atomic Chrome</a></h3>
       <div class="info">
-        <span class="period period-only">Jan 2015 - Present</span>
+        <span class="period period-only">Jan 2015 - Sep 2016</span>
       </div>
       <div class="content">
         Developed an Atom editor and Google Chrome plugin to live edit
@@ -410,7 +498,8 @@ redirect_from:
       <dt>English</dt>
       <dd>fluent <span class="score">(<a href="https://www.ets.org/toefl/ibt/about">TOEFL iBT</a> 108/120)</span></dd>
       <dt>Japanese</dt>
-      <dd>fluent <span class="score">(<a href="http://www.jlpt.jp/e/about/levelsummary.html">JLPT N1</a> 165/180)</span></dd>
+      <dd>fluent <span class="score">(<a href="http://www.jlpt.jp/e/about/levelsummary.html">JLPT N1</a> 165/180)</span>
+      </dd>
       <dt>Spanish</dt>
       <dd>intermediate</dd>
       <dt>German</dt>

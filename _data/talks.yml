@@ -1,3 +1,15 @@
+- title: "Interpreting Solidity"
+  date: 2024/11/14
+  location: DevCon 7
+  location_url: https://archive.devcon.org/devcon-7/interpreting-solidity/
+  path: 2024/devcon/interpreting-solidity.pdf
+
+- title: "Security Risks in DeFi: Delineating Technical and Economic Security"
+  date: 2022/10/14
+  location: DevCon 6
+  location_url: https://archive.devcon.org/devcon-6/security-risks-in-defi-delineating-technical-and-economic-security/
+  path: 2022/devcon/defi-security-risks.pdf
+
 - title: "Smart Contract Upgradeability in DeFi protocols"
   date: 2022/05/05
   location: The 2nd Workshop on Decentralized Finance (DeFi)
