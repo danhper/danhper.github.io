@@ -1,5 +1,19 @@
 - title: Publications
   papers:
+    - title: "Auto.gov: Learning-based Governance for Decentralized Finance (DeFi)"
+      links:
+        - href: https://arxiv.org/abs/2302.09551
+          text: arXiv
+        - href: https://static.perez.sh/research/2025/auto-gov/auto-gov.pdf
+          text: paper
+      authors:
+        - Jiahua Xu
+        - Yebo Feng
+        - Daniel Perez
+        - Benjamin Livshits
+      note: >
+        Published in <a href="https://www.computer.org/csdl/journal/sc/2025/03/10937069/25mY2gnc9u8">IEEE Transactions on Services Computing</a>, May-Jun. 2025, pp. 1278-1292, vol. 18
+
     - title: "SoK: Decentralized Finance (DeFi)"
       links:
         - href: https://arxiv.org/abs/2101.08778
@@ -14,7 +28,7 @@
         - Dominik Harz
         - William J. Knottenbelt
       note: >
-        to appear at the 4th ACM Conference on Advances in Financial Technologies (<a href="https://aft.acm.org/aft22/index.html">AFT 2022</a>)
+        in proceedings of the 4th ACM Conference on Advances in Financial Technologies (<a href="https://aft.acm.org/aft22/index.html">AFT 2022</a>)
 
     - title: "Dissimilar Redundancy in DeFi"
       links:
@@ -28,7 +42,7 @@
         - Daniel Perez
         - Lewis Gudgeon
       note: >
-        to appear at the 3rd International Conference on Mathematical Research for Blockchain Economy (<a href="https://www.marble-conference.org/marble2022">MARBLE 2022</a>)
+        in proceedings of the 3rd International Conference on Mathematical Research for Blockchain Economy (<a href="https://www.marble-conference.org/marble2022">MARBLE 2022</a>)
 
     - title: "Data-driven analysis of central bank digital currency (CBDC) projects drivers"
       links:
@@ -40,7 +54,7 @@
         - Toshiko Matsui
         - Daniel Perez
       note: >
-        to appear at the 3rd International Conference on Mathematical Research for Blockchain Economy (<a href="https://www.marble-conference.org/marble2022">MARBLE 2022</a>)
+        in proceedings of the 3rd International Conference on Mathematical Research for Blockchain Economy (<a href="https://www.marble-conference.org/marble2022">MARBLE 2022</a>)
 
     - title: "Smart Contract Vulnerabilities: Vulnerable Does Not Imply Exploited"
       links:
